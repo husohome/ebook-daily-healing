@@ -1,3 +1,28 @@
+# January 15, 2025 | Energy Routing  
+🌞 Capricorn | 🌙 Libra | 🌕 Full Moon  
+
+## ⚡ Recharge Paths  
+
+**Practice:**  
+□ Social Battery Check:  
+1. Rate energy level (1-10)  
+2. Choose recharge method:  
+   - 🦉 Solo: Quiet candle meditation  
+   - 🐦⬛ Group: Host fire-side sharing  
+   - 🌳 Nature: Barefoot grounding by flames  
+3. Track energy shift post-activity  
+
+### 📝 Power Notes  
+Which route restored most vitality?  
+_______________________
+
+### 💡 Mini-Challenge  
+🔋 Alternate between two recharge styles  
+_______________________
+
+### 💫 Biometric Fact  
+"Introvert/extrovert brain patterns show 27% different oxygen use during socializing (J. Neuroscience)!"  
+
 # January 15, 2025 | Mid-Month Check-In
 ☀️ Capricorn | 🌙 Cancer | 🌗 Last Quarter
 

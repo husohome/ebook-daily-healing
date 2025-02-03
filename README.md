@@ -1,13 +1,22 @@
 # ebook-daily-healing
-this is an ebook for daily healing practices
+This is an ebook for daily healing practices. Each day's entry is formatted consistently and organized by month.
 
 # Daily Healing Practices E-Book
 
-A comprehensive guide to incorporating healing practices into your daily routine for improved wellbeing and personal growth.
+A comprehensive guide to incorporating healing practices into your daily routine for improved wellbeing and personal growth. The ebook is structured using monthly folders that contain daily practice entries (e.g., january, february, april).
 
 ## Overview
 
 This e-book provides practical guidance on daily healing practices that can help restore balance, reduce stress, and promote overall wellness. Whether you're new to healing practices or looking to deepen your existing routine, this resource offers valuable insights and techniques.
+
+## Folder Structure
+
+- january/ - Contains daily entries for January.
+- february/ - Contains daily entries for February.
+- april/ - Contains daily entries for April.
+- (Other months may be added as needed.)
+
+*Note:* The "chapters" folder has been deprecated in favor of a more intuitive monthly structure.
 
 ## Contents
 
@@ -23,26 +32,25 @@ This e-book provides practical guidance on daily healing practices that can help
 
 ## Features
 
-- Step-by-step instructions for each practice
-- Scientific background on healing techniques
-- Customizable routines
-- Printable worksheets and journals
-- Audio guided meditations
-- Progress tracking tools
+- Consistent formatting for each daily entry.
+- Step-by-step instructions for each practice.
+- Customizable routines aligned with daily themes.
+- Printable worksheets and journals.
+- Audio guided meditations.
+- Progress tracking tools.
 
 ## How to Use This E-Book
 
-1. Start with the Introduction section
-2. Assess your current wellness needs
-3. Choose practices that resonate with you
-4. Begin with one practice and gradually add more
-5. Use the tracking tools to monitor your progress
+1. Navigate to the folder for the desired month.
+2. Select a daily entry to view the day's healing practice.
+3. Follow the instructions in the daily entry to complete the practice.
+4. Use the provided tracking tools to monitor your progress.
 
 ## Requirements
 
-- PDF reader for digital version
-- Printer access (optional for worksheets)
-- Audio player for guided meditations
+- PDF reader for digital version.
+- Printer access (optional for worksheets).
+- Audio player for guided meditations.
 
 ## Support
 
@@ -60,4 +68,4 @@ Regular updates and new content will be provided to all readers. Check the websi
 
 ---
 
-*Start your healing journey today with simple, effective practices that fit into your daily life.*
+*Embrace daily healing practices and cultivate wellness every day!*
