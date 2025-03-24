@@ -1,0 +1,144 @@
+---
+# Book Metadata
+title: "The Daily Healing Journey"
+subtitle: "A Self-Discovery Guide to Emotional Wellness and Personal Growth"
+author: "Lune Voss"  
+language: en-US
+publisher: "Self-Published"  # For KDP self-publishing
+publication_date: "2025"
+version: "1.0"
+
+# Book Structure
+structure:
+  front_matter:
+    - copyright.md
+    - dedication.md
+    - preface.md
+    - how_to_use.md
+  
+  main_content:
+    - content/01_introduction/*.md
+    - content/02_techniques/**/*.md
+    - content/03_themes/**/*.md
+    - content/04_integration/*.md
+  
+  back_matter:
+    - appendix/*.md
+    - resources.md
+    - about_authors.md
+
+# Styling
+styling:
+  theme: "modern-light"
+  fonts:
+    heading: "Merriweather"
+    body: "Source Sans Pro"
+    code: "Fira Code"
+  
+  colors:
+    primary: "#4A90E2"
+    secondary: "#50E3C2"
+    accent: "#F5A623"
+    text: "#333333"
+    background: "#FFFFFF"
+
+# Layout
+layout:
+  page_size: "6x9"  # Standard KDP size
+  margins:
+    top: "0.75in"
+    bottom: "0.75in"
+    inner: "0.875in"  # Larger inner margin for binding
+    outer: "0.625in"
+  
+  chapter_style:
+    start_on_recto: true
+    number_format: "decimal"
+    title_format: "Chapter {number}: {title}"
+
+# Images
+images:
+  resolution: "300dpi"
+  max_width: "1200px"
+  format: "jpg"
+  compression: "high"
+
+# KDP Metadata
+kdp:
+  categories:
+    primary: "SELF-HELP / Personal Growth / General"
+    secondary: "PSYCHOLOGY / Mental Health"
+  
+  keywords:
+    - "self healing"
+    - "personal growth"
+    - "emotional wellness"
+    - "mindfulness meditation"
+    - "personality development"
+    - "mental health"
+    - "self help workbook"
+  
+  book_details:
+    trim_size: "6x9"
+    paper_type: "cream"  # Better for reading
+    cover_finish: "matte"
+    page_count: "~300"  # Estimated
+    target_audience: "Adults seeking personal growth and emotional healing"
+    age_range: "Adult"
+    language: "English"
+    
+  pricing:
+    territories:
+      - US
+      - UK
+      - EU
+      - CA
+      - AU
+    
+    kindle:
+      us_price: 1.99  # Suggested price point
+      royalty: "50%"  # Choose 70% royalty option
+    
+    print:
+      us_price: 2.99  # Suggested price point
+      printing_cost: "~1.05"  # Estimated for 300 pages
+
+# EPUB Settings
+epub:
+  version: "3.0"
+  toc_depth: 3
+  include_cover: true
+  chapter_breaks: true
+  css: "styles.css"
+  
+  metadata:
+    subject: "SELF-HELP / Personal Growth / Emotional Healing"
+    keywords:
+      - "self-healing"
+      - "personal growth"
+      - "emotional wellness"
+      - "mindfulness"
+      - "psychology"
+      - "meditation"
+      - "journaling"
+      - "personality development"
+    
+    rights: |
+      Copyright © 2024 [Your Name]
+      All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the publisher.
+
+# Build Settings
+build:
+  output_formats:
+    - epub
+    - pdf
+    - mobi
+  
+  generate_index: true
+  include_footnotes: true
+  create_bibliography: false
+  
+  validation:
+    check_links: true
+    spell_check: true
+    style_check: true 

@@ -1,0 +1,78 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$,$endif$]{$documentclass$}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{hyperref}
+
+% Colors
+\definecolor{primary}{HTML}{4A90E2}
+\definecolor{secondary}{HTML}{50E3C2}
+\definecolor{accent}{HTML}{F5A623}
+\definecolor{text}{HTML}{333333}
+
+% Page layout
+\geometry{
+    top=$if(geometry.top)$$geometry.top$$else$0.75in$endif$,
+    bottom=$if(geometry.bottom)$$geometry.bottom$$else$0.75in$endif$,
+    left=$if(geometry.left)$$geometry.left$$else$0.875in$endif$,
+    right=$if(geometry.right)$$geometry.right$$else$0.625in$endif$
+}
+
+% Headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+% Title formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries\color{primary}}
+{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+% Table of contents styling
+\renewcommand{\cfttoctitlefont}{\Huge\bfseries\color{primary}}
+\renewcommand{\cftchapfont}{\bfseries\color{primary}}
+\renewcommand{\cftsecfont}{\color{text}}
+
+% Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+    citecolor=primary
+}
+
+% Document info
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+
+% Title page
+\maketitle
+\thispagestyle{empty}
+
+% Copyright page
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+Copyright © $year$ $publisher$\\
+All rights reserved.
+\end{center}
+\vspace*{\fill}
+
+% Table of contents
+\tableofcontents
+
+% Main content
+$body$
+
+\end{document} 
